@@ -1,0 +1,22 @@
+"""
+On the main page, there are recommendations organized into categories like:
+"Popüler Ürünlerden Seçtik" (Our Popular Picks),
+"En Avantajlı Ürünler" (Best Value Products),
+"Süper Fiyat, Süper Teklif" (Super Price, Super Offer),
+"Herkes Bu Ürünlerin Peşinde" (Everyone's After These Products),
+"Saklama, Düzenleme" (Storage & Organization),
+"Kılıflar" (Cases),
+"Yemek Hazırlama" (Food Prep),
+and banner ads.
+
+Each category contains relevant products selected through algorithms, business logic, and A/B testing.
+The algorithms consider factors like:
+1.The user's location when they visit 2.The most popular products from recent days 3.Discounted items 4.Seasonal products and other parameters
+On product pages, the site again uses machine learning to find:
+1.Similar products, similar brands, 2.Complementary items 3.Products with matching characteristics 3.Sometimes based on user-specific data.
+
+There's also the option to browse categories, keeping users engaged on the site longer. There are also business rules that mainly show higher-margin products. The longer a user stays on the site, the more products they'll see - and more products mean more chances to sell.
+
+In the cart, they recommend products to increase order value.
+Here, algorithms identify what's frequently bought with these items. The selection is more limited here, though some other sites have features where the system automatically creates bundles and offers discounts for buying 2-3 items together.
+"""

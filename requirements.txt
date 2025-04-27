@@ -1,0 +1,10 @@
+pytest
+pytest-order
+pytest-rerunfailures
+pytest-xdist
+python-dotenv
+selenium
+webdriver-manager
+requests
+pydantic
+jsonschema
