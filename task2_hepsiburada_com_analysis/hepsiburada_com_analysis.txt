@@ -19,4 +19,24 @@ There's also the option to browse categories, keeping users engaged on the site 
 
 In the cart, they recommend products to increase order value.
 Here, algorithms identify what's frequently bought with these items. The selection is more limited here, though some other sites have features where the system automatically creates bundles and offers discounts for buying 2-3 items together.
+
+
+Also, here some APIs which is retrieve the recommendation on the
+Main page:
+GET Request:
+https://hydra-home-api.hepsiburada.com/api/v1/home/web/view/web_homepage/Recommendation-3?anonymousId=e1872586-0e59-4e1d-b2c6-8264e02164ae&jwt&tenant&userInfo
+Image: task2_img1.png
+
+Cards page:
+GET Request:
+https://hepsiads-gw.hepsiburada.com/sponsored-products/api/v1/internal-sp/basket?skus=HBCV000028JVFP|HBCV00002TZDEL&platform=desktop
+Image: task2_img2.png
+
+ Note:
+"All responses are dynamic."
+which means:
+
+You’ll get different results depending on the input and session state.
+
+Testing/debugging may require mocking responses or setting consistent query params (example: static anonymousId).
 """

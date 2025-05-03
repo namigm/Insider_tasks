@@ -1,8 +1,14 @@
 from selenium.webdriver.common.by import By
-from ui.pages.pages_base import PageBase
+from ui.base.selenium_base import BaseObject
 
 
-class CareersPage(PageBase):
+class CareersPage(BaseObject):
+    location_locator = (By.XPATH, "//h3[@class='category-title-media ml-0\' and contains("
+                                  "text(), \'Our Locations')]")
+    location_text_locator = (By.XPATH, '//p[@class="mt-5 mb-0 mt-lg-0 mx-auto pl-0" and contains(text(), "28 offices '
+                                       'across 6 continents")]')
+    teams_block_locator = (By.XPATH, "//div[@class='col-12 d-flex flex-wrap p-0 career-load-more']")
+    life_block_locator = (By.CSS_SELECTOR, ".elementor-widget-wrap.elementor-element-populated.e-swiper-container")
 
     def __init__(self, driver):
         super().__init__(driver)
